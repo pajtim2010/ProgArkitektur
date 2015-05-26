@@ -1,0 +1,209 @@
+body {
+    background: #2c3338;
+    color: #606468;
+    font: 87.5%/1.5em 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/******** LOGIN PAGE ********/
+#loginmain{
+    position: relative;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 520px;
+    height: 320px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 1%;
+    right: 0;
+    display: block;
+
+    margin:0 auto;
+}
+
+
+#loginf {
+    width: 300px;
+    height: 220px;
+    background-color: #363b41;
+    border-radius: 5px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: 220px auto auto;
+}
+
+#loginf2 {
+    width: 300px;
+    height: 160px;
+    background-color: #363b41;
+    border-radius: 5px;
+    
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: 220px auto auto;
+}
+
+
+#loginf input {
+    border: none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 0;
+    -webkit-appearance: none;
+}
+
+#loginf input[type="text"], input[type="password"] {
+    background-color: #3b4148;
+
+    border-radius: 0px 3px 3px 0px;
+    border-color: #000000;
+    color: #606468;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 150px;
+    height: 30px;
+}
+
+
+#loginf input[type="submit"] {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-color: #000000;
+    background-color: #82A342;
+    color: #eee;
+    font-weight: bold;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+}
+
+#loginf input[type="submit"]:hover {
+    background-color: #5E762F;
+}
+
+#loginf input[type="reset"]{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-color: #000000;
+    background-color: #5A9EBF;
+    color: #eee;
+    font-weight: bold;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    width: 90px;
+    height: 50px;
+}
+
+#loginf input[type="reset"]:hover{
+    background-color: #41728A;
+}
+
+#banner {
+    color: #A3CC52;
+}
+
+
+/******** ADMIN PAGE ********/
+
+
+
+a.courseReg{
+    
+    background-color: #363b41;
+    border-radius: 5px;
+    height: 25px;
+    width: 130px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    
+    font-style: Arial;
+
+    margin: 260px auto auto;
+}
+
+a.userMgmt{
+    background-color: #363b41;
+    border-radius: 5px;
+    height: 25px;
+    width: 130px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    
+    font-style: Arial;
+
+    margin: 220px auto auto;
+}
+
+a.upload{
+    background-color: #363b41;
+    border-radius: 5px;
+    height: 25px;
+    width: 130px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    
+    font-style: Arial;
+
+    margin: 300px auto auto;
+}
+
+a.logout{
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    font-style: Arial;
+}
+
+a:link{
+    color: #C4C7C8;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #9D9FA0;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #C4C7C8;
+}
+
+th,td{
+    color:white;
+}
+
+p{
+    color:white;
+}
+#upload2{
+    color:white
+}
